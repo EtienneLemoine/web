@@ -5,15 +5,19 @@
   width: 100%;
 
 }
+.img{
+  width: 70%;
+}
 .a1 {
   margin-top: 2%;
   position: absolute;
   width: 20%;
-  right: 25%;
+  right: 23%;
   font-style: italic;
   justify-content: center;
 }
 .imagenes {
+  width: 40%;
   margin-left: 2%;
 }
 .espaciado {
@@ -27,9 +31,6 @@
   right: 10%;
 }
 .a3{
-    position:absolute;
-    left: -10%;
-    margin-top: 5%;
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 600;
@@ -62,7 +63,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50%;
+  margin-bottom: 55%;
   padding: 3rem;
 }
 
@@ -88,10 +89,25 @@
   .about .container {
     width: 100%;
   }
+  .about .a1{
+    position: absolute;
+    left: 25%;
+  }
+  
+  .about .a4{
+    position: relative;
+    bottom: 50%;
+    left: -85%;
+  }
 
   .about .container img {
+    position: relative;
+    left: 18%;
+    width: 70%;
+  }
+  .about .imagenes{
     padding: 0rem;
-    width: 90vw;
+    width: 13%;
   }
 
   .about .container .col-2 {

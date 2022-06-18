@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about" id="about">
       <div className="container">
-        <img src={Etienne} alt="john" width="70%" />
+        <img src={Etienne} alt="john" className="img"/>
         <div className="col-2">
           <h2>About me</h2>
           <span className="line"></span>
@@ -23,22 +23,22 @@ const About = () => {
               <div className="imagenes">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
-                  width="12%"
                   
+                  className="imagenes"
                 />
                 <img
                   src="https://e7.pngegg.com/pngimages/522/1018/png-clipart-purple-atom-redux-logo-icons-logos-emojis-tech-companies-thumbnail.png"
-                  width="12%"
+                 
                   className="imagenes"
                 />
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/919/919826.png"
-                  width="12%"
+                  
                   className="imagenes"
                 />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/2048px-HTML5_logo_black.svg.png"
-                  width="12%"
+                  
                   className="imagenes"
                 />
               </div>
@@ -48,31 +48,32 @@ const About = () => {
               <div className="imagenes">
                 <img
                   src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_640.png"
-                  width="17%"
+                  className="imagenes"
                 />
                 <img
                   src="https://www.jacobsoft.com.mx/wp-content/uploads/2020/04/node-js-736399_960_720-2.png"
-                  width="17%"
+                  
                   className="imagenes"
                 />
                 <img
                   src="http://assets.stickpng.com/images/58482ee4cef1014c0b5e4a75.png"
-                  width="11%"
+                  
                   className="imagenes"
                 />
                 <img
                   src="https://1000marcas.net/wp-content/uploads/2020/11/MySQL-logo.png"
-                  width="17%"
+                 
                   className="imagenes"
                 />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png"
-                  width="11%"
+                  
                   className="imagenes"
                 />
               </div>
-              <a className="a3">Idiomas</a>
               <div className="a4">
+              <a className="a3">Idiomas</a>
+              <div >
                 <div className="il">
                 <ul>
                 <li>Ingles: C1 - Conversacional.</li>
@@ -81,6 +82,7 @@ const About = () => {
                 <li>Latin: Intermedio.</li>
                 <li>Griego: Intermedio.</li>
                 </ul>
+                </div>
                 </div>
               </div>
             </div>
